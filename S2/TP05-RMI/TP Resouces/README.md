@@ -19,6 +19,8 @@ Create a server application that will host the remote object. This involves crea
 
 Create a client application that will interact with the remote object hosted on the server. The client application should look up the remote object from the registry, obtain a reference to it, and then invoke remote methods as needed. in our example the [MyClient.java](MyServer.java) is our Client Application. 
 
+<span style="color:red">*PS:*</span> The URL inside the lookup and rebind method should be identical to establish connection between the server and the client.
+
 ## Steps to Run the RMI Application:
 
 ### *1. Compile the Classes:*
@@ -39,3 +41,5 @@ In another terminal (command line) run the server application that hosts the rem
 ### *5. Start the Client:*
 
 In a third terminal (command line) run the client application that interacts with the remote object. The client should look up the remote object from the RMI registry, obtain a reference to it, and then call its remote methods as required.
+
+<span style="color:red">*PS:*</span> We're testing on the same machine, but each terminal we open creates a separate JVM instance.
