@@ -1,4 +1,4 @@
-# Abstract Classes in Java
+# Interfaces in Java
 Interfaces in Java are a way to define a contract that classes must follow. They specify methods that a class must implement but do not provide any implementation themselves. Interfaces are used to achieve abstraction and multiple inheritance.
 
 ### *1.Declaration of an Interface:*
