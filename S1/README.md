@@ -35,8 +35,8 @@ The repository is structured as follows:
 
 ### Inheritance and Encapsulation
 - `tp04_Inheritance/`
-  - `exercises/` - Contains exercises in PDF format.
-  - `solutions/` - Contains Java solutions and solutions in PDF format.
+  - `TP/` - Contains exercises in PDF format.
+  - `SOLUTION/` - Contains Java solutions and solutions in PDF format.
 
 ## How to Use This Repository
 
